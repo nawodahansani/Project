@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Session</title>
+
+    <!--external Css-->
+    <link rel="stylesheet" href="assets/style/css.css">
+
+    <!--internal Css-->
+    <style>
+/*        !*type selector*!
+        h2{
+            color: blueviolet;
+            background: #efe38b;
+        }
+
+        !*id selector*!
+        #place{
+            background: #b07b97;
+        }
+
+        !*class selector*!
+        .my-class {
+            background: palegreen;
+        }
+
+        !*univarsal selector*!
+        *{
+            color: deepskyblue;
+        }*/
+        /*
+        !*attribute selector*!
+        [href]{
+            color: silver;
+        }
+
+        [href="https://ijse.lk"]{
+            color: plum;
+        }
+
+        !*select elements which begin with https | attribute selector with starting value*!
+        [href^="https"]{
+            font-weight: bold;
+        }
+
+        !*select elements which end with .com | attribute selector with ending value*!
+        [href$=".com"]{
+            background: peachpuff;
+        }
+
+        [href*="ijse"]{
+            background: cadetblue;
+        }
+
+        [href~="ijse"]{
+            background: lawngreen;
+        }
+
+      !*h2 element wena class attribututh wena ekak select krnnm*!
+       h2[class]{
+            background: yellowgreen;
+        }*/
+
+       /* !*pseudo-class selector*!
+        h1:hover{
+            color:blue ;
+        }
+        h1:active{
+            color: crimson;
+        }
+
+        a:link{
+            color: green;
+        }
+        a:visited{
+            color: orange;
+        }
+        input:focus{
+            background: yellow;
+        }
+
+    li:first-child{
+        color: crimson;
+        background: peachpuff;
+    }
+    li:last-child{
+        color: green;
+        background: peachpuff;
+    }
+    li:nth-child(4){
+        background: #81f5c5;
+    }
+    li:nth-child(3){
+        background: #83c1f5;
+    }
+    li:nth-last-child(2){
+        background: plum;
+    }*/
+
+    /*li:nth-child(odd){
+        background: plum;
+    }
+    li:nth-child(even){
+        background: hotpink;
+    }
+    li:nth-child(n+4){
+    background:coral;
+    }
+    li:nth-child(3n-1){
+    background: palegreen;
+    }
+    li:nth-child(3n+1){
+        background: pink;
+    }
+    li:nth-child(4n){
+        background: lightcoral;
+    }*/
+
+   /* !*pseudo-element selector*!
+    h2::before{
+        content:"👍Sri Lanka - ";
+    }
+    h2::after{
+        content: "🌟";
+    }
+    p::first-letter{
+        font-weight: bold;
+        color: crimson;
+    }
+    p::first-line{
+        background: rgba(131,193,245,0.86);
+    }
+    input::placeholder{
+        color: pink;
+        background: black;
+    }
+    input[type="file"]::file-selector-button{
+        background: cornflowerblue;
+    }
+    p::selection{
+        background: plum;
+    }
+    !*full site ektm me color ek selection walata yedima*!
+    ::selection{
+        background: palegreen;
+    }
+    li::marker{
+        content: "⚡";
+    }*/
+
+  /*  grouping selector*/
+    h1, #place, my-class, ul{
+        font-weight: bold;
+    }
+
+    h2::before{
+    content:"👍 ";
+    }
+    h2:hover::before{
+        background: darkorchid;
+    }
+
+    </style>
+
+
+</head>
+
+<body>
+<!--&lt;!&ndash;inline Css &ndash;&gt;
+<h1 style="color: #6e1b47">Welcome</h1>
+
+&lt;!&ndash; internal Css&ndash;&gt;
+&lt;!&ndash;type selector&ndash;&gt;
+<h2 class="my">To</h2>
+
+&lt;!&ndash; external Css&ndash;&gt;
+<h3>IJSE</h3>
+
+&lt;!&ndash;id selector&ndash;&gt;
+<h2 id="place">Institute</h2>
+
+&lt;!&ndash;class selector&ndash;&gt;
+<p class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus distinctio dolore molestiae nemo sequi tempora voluptatum. Aliquam debitis ratione sequi veritatis voluptatum? Explicabo possimus quibusdam quos recusandae ut voluptates!</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores consectetur consequatur corporis dolor exercitationem facilis illum iure iusto molestiae natus odio quo ratione repellat, repellendus sit totam veniam vitae.</p>
+
+<p class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nisi quod sint vel! Ad corporis dolorum est non quam recusandae tenetur voluptate voluptates. Beatae dicta, eaque eos minus odio voluptatem!</p>
+
+&lt;!&ndash;attribute selector&ndash;&gt;
+<a href="https://ijse.lk">IJSE 1</a> <br>
+<a href="http://ijse.lk">IJSE 2</a> <br>
+<a href="https://abc.com">ABC</a> <br>
+<a href="https://open ijse .com">OPEN</a>
+
+&lt;!&ndash;pseudo-class selector&ndash;&gt;
+<h1>Hello World</h1>
+
+<a href="https://sirasatv.lk">Sirasa</a> <br>
+<a href="https://hirutv.lk">Hiru</a> <br>
+<a href="https://eyetv.lk">Eye</a> <br>
+
+<input type="text" placeholder="input your name">-->
+
+<ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>F</li>
+    <li>G</li>
+    <li>H</li>
+</ul>
+
+<!--pseudo-element selector-->
+<!--<h2>IJSE Institute</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut beatae commodi dignissimos doloremque et fuga fugiat neque provident, quaerat quasi quisquam velit voluptatum. Aperiam et ipsam itaque perspiciatis ut.</p>
+<input type="text" placeholder="input your name">
+<input type="file">-->
+
+<!--grouping selector-->
+<h1>Hello World</h1>
+<h2 id="place">Institute</h2>
+<p class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus distinctio dolore molestiae nemo sequi tempora voluptatum. Aliquam debitis ratione sequi veritatis voluptatum? Explicabo possimus quibusdam quos recusandae ut voluptates!</p>
+
+</body>
+</html>

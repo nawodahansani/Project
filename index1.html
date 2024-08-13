@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon"href="assets/background%20image.jpg">
+    <title>Title</title>
+
+</head>
+<body>
+<h1><em>IJSE</em> - Software Engineering Institute</h1>
+<h2>#1 Software Engineering Institute in Sri Lanka</h2>
+<h2>Kavindu</h2>
+<h2>X<sup>2</sup></h2>
+<h2>H<sub>2</sub>O</h2>
+
+<table>
+   <table border="1">
+    <thead>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>ADDRESS</th>
+    <th>PHONE</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Nimal</td>
+        <td>Panadura</td>
+        <td>0123698522</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Kamal</td>
+        <td>Horana</td>
+        <td>0758890036</td>
+    </tr>
+    </tbody>
+   </table>
+</table>
+
+
+<table>
+    <table border="1">
+        <caption>Table Student</caption>
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th colspan="2">Emails</th>
+    <th>Parent's Name</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Kavindu</td>
+        <td>Kavindu1@gamil.com</td>
+        <td>Kavindu2@gamil.com</td>
+        <td>Mr.Rathnayaka</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Janith</td>
+        <td>Janith1@gamil.com</td>
+        <td>Janith2@gamil.com</td>
+        <td>Mr.Sarath</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sheron</td>
+        <td colspan="2">Sheron@gamil.com</td>
+        <td rowspan="2">Mr.Kamal</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Brian</td>
+        <td>Brian1@gamil.com</td>
+        <td>Brian2@gamil.com</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Vishwa</td>
+        <td>Vishwa1@gamil.com</td>
+        <td>Vishwa2@gamil.com</td>
+        <td>Mr.Nihal</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Saroja</td>
+        <td colspan="2" rowspan="2">Saroja@gamil.com</td>
+        <td rowspan="2">Mr.Nelson</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Sarojini</td>
+    </tr>
+
+    </tbody>
+    </table>
+</table>
+<!-- image -->
+<img src="assets/images/large.jpg" title="Apple iphone" alt="image" width="300">
+
+<!-- picture -->
+<picture>
+    <!-- width ek 1000px or ita wada wedinm me image ek show krn -->
+    <source media="(min-width : 1000px)" srcset="assets/images/large.jpg">
+    <!-- width ek 800px or ita wedinm me image ek show krn-->
+    <source media="min-width : 800px" srcset="assets/images/medium.jpg">
+    <!-- ema neththam me image ek show krn -->
+    <img src="assets/images/small.jpg" title="Apple iphone picture" alt="image">
+</picture>
+
+<!-- video-->
+<!-- controls : video ek pla wenna control ek denna -->
+<!-- poster : video ek play wenne nethinm show krn oni image ek danna -->
+<!-- muted autoplay : autoplay wenna nm muted danna oni -->
+<!-- loop : video ek loop ekak widiht play wenna-->
+<video controls
+       muted
+       autoplay
+       loop
+       poster="assets/images/car-poster.jpeg"
+       width="700"
+       height="400">
+    <!-- mp4 type ek weda neththam webm type eken video ek play wenna   me widihat type kipayak danna puluwn -->
+    <source src="assets/videos/car.mp4" type="video/mp4">
+    <source src="assets/videos/car.webm" type="video/webm">
+     <!-- track -->
+    <!-- label : track ekata lable ekak denna arclang : extra naming for everyone to understand (iso language code) -->
+    <track label="English" kind="subtitles" src="assets/videos/subtitles/sample.vtt" srclang="en">
+    <track label="Arabic" kind="subtitles" src="assets/videos/subtitles/arabic.vtt" srclang="ar">
+</video>
+
+<audio controls>
+    <source src="assets/audios/audio_file1.mp3" type="audio/mp3">
+</audio>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+       /* Child-Combinator*/
+        ul>li:nth-child(3){
+            color: darkorchid;
+        }
+
+       /*Decendent-Conbinator*/
+        ul li {
+            color: #188618;
+        }
+
+       /* Adjacent-Combinator*/
+       /*select 1st div after h4*/
+       h4+div {
+           color: coral;
+       }
+
+       /*General-Sibling-Combinator*/
+       /* select every div after h4*/
+       h4~div {
+           color: crimson;
+       }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<section>
+    <h1>Internet Technologies</h1>
+    <ul>
+        <div>
+            <h1>Hello</h1>
+            <li>Java</li>
+            <h4>Hi</h4>
+        </div>
+
+        <li>HTML</li>
+        <li>
+            CSS
+            <ol>
+                <li>Inline CSS</li>
+                <li>Internal CSS</li>
+                <li>External CSS</li>
+            </ol>
+        </li>
+        <li>Bootstrap</li>
+        <li>JS</li>
+        <li>JQuery</li>
+    </ul>
+
+    <h4>IJSE</h4>
+    <h3>ABC</h3>
+    <div>DEP</div>
+    <div>GDSE</div>
+    <div>CMJD</div>
+
+</section>
+
+
+
+</body>
+</html>
